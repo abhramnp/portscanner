@@ -16,21 +16,22 @@ Features
 
 Installation
 ------------------------------------------
-1. Clone the repository
-git clone https://github.com/your-username/port-scanner.git
-cd port-scanner
+1. Clone the repository:
+   
+-> git clone https://github.com/your-username/port-scanner.git
+-> cd port-scanner
 
-2. Install requirements
-pip install -r requirements.txt
+3. Install requirements
+-> pip install -r requirements.txt
 
-3. Run GUI
-python3 portscan.py
+4. Run GUI
+-> python3 portscan.py
 
 Run as Command (Linux)
 
-chmod +x portscan.py
-sudo cp portscan.py /usr/local/bin/portscanner
-Run: portscanner
+-> chmod +x portscan.py
+-> sudo cp portscan.py /usr/local/bin/portscanner
+-> Run: portscanner
 
 Comparison with Nmap
 -This tool provides basic scanning and banner grabbing, while Nmap offers advanced service detection, OS detection, and multiple scan types.
